@@ -1,0 +1,102 @@
+.carousel-hot {
+    grid-area: homepage_hot;
+    height: 40rem;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+
+.hot-carousel {
+    width: 100%;
+    height: 100%;
+}
+  
+.hot-products {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hot-carousel .hot-products .inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+}
+
+.hot-carousel .hot-products .inner .subtitle {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.2rem;
+    line-height: 1.2rem;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+}
+
+.hot-carousel .hot-products .inner .title {
+    font-size: 3rem;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.hot-carousel .hot-products .inner .btn {
+    border: 1px solid #fff;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.hot-carousel .hot-products .inner .btn:hover {
+    background: #fff;
+    color: #000;
+}
+  
+.hot-carousel .flickity-prev-next-button {
+    width: 80px;
+    height: 80px;
+    background: transparent;
+}
+  
+.hot-carousel .flickity-prev-next-button:hover {
+    background: transparent;
+}
+  
+.hot-carousel .flickity-prev-next-button .arrow {
+    fill: white;
+}
+  
+.hot-carousel .flickity-page-dots {
+    bottom: 30px;
+}
+
+.hot-carousel .flickity-page-dots .dot {
+    width: 30px;
+    height: 4px;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0 solid white;
+    border-radius: 0;
+}
+  
+.hot-carousel .flickity-page-dots .dot.is-selected {
+    background: #f00;
+    border: 0 solid #f00;
+}

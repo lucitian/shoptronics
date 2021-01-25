@@ -1,0 +1,179 @@
+.block-hot-products {
+    padding-top: 5rem;
+    grid-area: homepage_hotProd;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "block1"
+        "block2";
+    gap: 50px;
+}
+
+.block-hot-products-container1 {
+    grid-area: block1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "block1-prod1 block1-prod2";
+    gap: 50px;
+}
+
+.block-hot-products-container2 {
+    grid-area: block2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "block2-prod1 block2-prod2";
+    gap: 50px;
+}
+
+.block-hot-products-cell1 {
+    grid-area: block1-prod1;
+    position: relative;
+    overflow: hidden;
+}
+
+.block-hot-products-cell2 {
+    grid-area: block1-prod2;
+    position: relative;
+    overflow: hidden;
+}
+
+.block-hot-products-cell3 {
+    grid-area: block2-prod1;
+    position: relative;
+    overflow: hidden;
+}
+
+.block-hot-products-cell4 {
+    grid-area: block2-prod2;
+    position: relative;
+    overflow: hidden;
+}
+
+.block-hot-products-promo .block-hot-products-promo-image img {
+    max-width: 100%;
+    transition: all 0.8s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.block-hot-products-promo .block-hot-products-promo-image:hover img {
+    transform: scale(1.05);
+}
+
+.block-hot-products-promo-text1 {
+    font-family: OpenSans;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.block-hot-products-promo-text2 {
+    font-family: OpenSans;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.block-hot-products-promo-text1 .block-promo-btn {
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 14px 18px;
+    color: black;
+}
+
+.block-hot-products-promo-text2 .block-promo-btn {
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 14px 18px;
+    color: black;
+}
+
+#PS5-text {
+    color: white;
+}
+
+#Nintendo-text {
+    color: white;
+}
+
+#All_Consoles-text {
+    color: white;
+}
+
+/**
+
+#PS5-btn {
+    top: 20px;
+    left: 50px;
+    text-align: left;
+}
+
+#PS5-text {
+    color: white;
+    text-align: left;
+}
+
+#Xbox-btn {
+    top: 20px;
+    right: 50px;
+    text-align: right;
+}
+
+#Xbox-text {
+    color: white;
+    text-align: right;
+}
+
+#Switch-btn {
+    bottom: 80px;
+    left: 50px;
+    text-align: left;
+}
+
+#Switch-text {
+    color: white;
+    text-align: left;
+}
+
+#Accessories-btn {
+    bottom: 80px;
+    right: 50px;
+    text-align: right;
+}
+
+#Acccessories-text {
+    color: white;
+    text-align: right;
+}
+
+
+.hot-products-cell .hot-products-promo .hot-products-promo-text {
+    position:relative;
+    z-index: 999;
+    color: White;
+    margin: 0 auto;
+    transform: translateY(-300%);
+
+}
+
+.hot-products-cell .hot-products-promo .hot-products-promo-text .promo-btn {
+    border: 1px solid #fff;
+    padding: 14px 18px;
+    color: white;
+}
+
+#PS5-text {
+    text-align: left;
+}
+
+
+**/

@@ -1,0 +1,24 @@
+.carousel-hotpicks {
+  grid-area: homepage_hotPicks;
+  width: 100%;
+}
+
+.hotpicks-title .hotpicks-title-text{
+  line-height: 1.5;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.hotpicks-carousel {
+  width: 100%;
+}
+
+.hotpicks-carousel .hotpicks-cell {
+  margin: 0 50px 0 0;
+}
+
+.hotpicks-carousel .hotpicks-cell .hotpicks-cell-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}

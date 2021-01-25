@@ -1,0 +1,105 @@
+.placeorder-container {
+    margin: 0 auto;
+    width: 70rem;
+    height: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.placeorder-shipping {
+    width: 100%;
+    margin: 0;
+}
+
+.placeorder-shipping-text {
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.placeorder-shipping-text h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.placeorder-method-text {
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.placeorder-method-text h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.placeorder-method-text p {
+    margin: 0;
+}
+
+.placeorder-order-text {
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.placeorder-order-text  h2{
+    margin: 0;
+    font-size: 40px;
+}
+
+.placeorder-items {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin: 10px 0;
+}
+
+.placeorder-items img {
+    width: 100px;
+    height: 100px;
+}
+
+.placeorder-item-title {
+    display: flex;
+}
+
+.placeorder-summary {
+    width: 100%;
+    margin: 0;
+}
+
+.placeorder-summary-title {
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.placeorder-summary-title h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.placeorder-summary-items {
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.placeorder-button {
+    background-color: #46598a;
+    margin-top: 25px;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.placeorder-button:hover {
+    background-color: #01040c;
+}

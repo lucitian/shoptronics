@@ -1,0 +1,14 @@
+.orderlist-container {
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.orderlist-container h1 {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}

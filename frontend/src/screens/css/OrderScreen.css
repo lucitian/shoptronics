@@ -1,0 +1,153 @@
+.orderscreen-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.orderscreen-field {
+    width: 100%;
+}
+
+.orderscreen-field h1 {
+    font-size: 40px;
+}
+
+.orderscreen-field span {
+    color: orange;
+}
+
+.orderscreen-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "order-field order-summary-field";
+    gap: 25px;
+}
+
+.order-field {
+    grid-area: order-field;
+}
+
+.summary-field {
+    grid-area: order-summary-field;
+}
+
+.orderscreen-shipping {
+    width: 100%;
+    background: #d8cccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.orderscreen-shipping h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.orderscreen-shipping p {
+    font-size: 25px;
+}
+
+.orderscreen-payment {
+    width: 100%;
+    background: #d8cccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.orderscreen-payment h2 {
+    margin: 0;
+    font-size: 40px;   
+}
+
+.orderscreen-payment p {
+    font-size: 25px;
+}
+
+.orderscreen-items {
+    width: 100%;
+    background: #d8cccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.orderscreen-order-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "order-image order-link order-price";
+}
+
+.order-image {
+    grid-area: order-image;
+}
+
+.order-link {
+    grid-area: order-link;
+}
+
+.order-price {
+    grid-area: order-price;
+}
+
+.orderscreen-items h2 {
+    margin: 0;
+    font-size: 40px;   
+}
+
+.orderscreen-items img {
+    width: 100px;
+    height: 100px;
+}
+
+.orderscreen-summary {
+    width: 100%;
+    height: 35rem;
+    background: #d8cccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.orderscreen-summary h2 {
+    margin: 0;
+    font-size: 40px; 
+}
+
+.order-items-text {
+    font-size: 22px;
+    margin: 20px 0 20px 0;
+}
+.order-summary-text {
+    font-size: 22px;
+    margin: 20px 0 20px 0;
+}
+.order-tax-text {
+    font-size: 22px;
+    margin: 20px 0 20px 0;
+}
+
+.orderscreen-deliver-button {
+    background-color: #46598a;
+    margin-top: 25px;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.orderscreen-deliver-button:hover {
+    background-color: #01040c;
+}

@@ -1,0 +1,23 @@
+.about-container {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-title h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.contactus-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
